@@ -8,7 +8,7 @@
             <i [ngClass]="isNavbarCollapsed ? 'fas fa-angle-left' : 'fas fa-angle-right'"></i>
           </button>
           <div class="profile-section text-center">
-            <!-- <img src={{Iam.profilePicture}} alt="Profile Picture" class="profile-pic"> -->
+            <img src={{Iam.profilePicture}} alt="Profile Picture" class="profile-pic">
             <div class="profile-info" [ngClass]="{ 'hidden-text': isNavbarCollapsed }">
               <p class="mb-0">{{Iam.name}}</p>
               <p class="mb-0">{{Iam.role}}</p>
